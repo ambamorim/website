@@ -10,30 +10,36 @@ NOTE: This is Style customizer stylesheet of template.
 */
 .brand-area {
     padding: 40px 0;
-    background-color: white; /* Change background to white */
+    background-color: white; /* Ensure the background is white */
 }
 
 .total-brand {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px; /* Add spacing between rows */
+    justify-content: center; /* Center the logos */
+    flex-wrap: wrap; /* Allow wrapping in case of overflow */
+    margin-bottom: 20px; /* Add space between rows */
 }
 
 .second-row {
-    margin-top: 20px; /* Add spacing between first and second row */
+    margin-top: 20px; /* Space between first and second row */
 }
 
 .single-brand {
-    flex: 1 1 18%; /* Adjusts the width so that 5 logos fit in a row */
+    flex: 0 1 15%; /* Adjust width for logos (15% to fit nicely in a row) */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 0 10px; /* Add a little horizontal margin */
+    padding: 10px;
 }
 
 .single-brand img {
-    max-width: 100px; /* Ensure the logos don’t get too big */
+    max-width: 100px; /* Control logo size */
     height: auto;
+}
+
+.container {
+    max-width: 100%; /* Ensure container uses full width */
 }
 
 
