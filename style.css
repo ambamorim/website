@@ -1952,18 +1952,23 @@ blockquote {
     color: #ff004d;
 }
 
+.brand-area {
+    padding: 40px 0;
+    background-color: white; /* Change background to white */
+}
+
 .total-brand {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10px; /* Add spacing between rows */
+    margin-bottom: 20px; /* Add spacing between rows */
 }
 
 .second-row {
-    margin-top: 10px; /* Add spacing between first and second row */
+    margin-top: 20px; /* Add spacing between first and second row */
 }
 
 .single-brand {
-    flex: 1 1 18%; /* Ensures 5 logos fit per row (adjust percentage as needed) */
+    flex: 1 1 18%; /* Adjusts the width so that 5 logos fit in a row */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1971,6 +1976,7 @@ blockquote {
 }
 
 .single-brand img {
-    max-width: 100px;
+    max-width: 100px; /* Ensure the logos don’t get too big */
     height: auto;
 }
+
