@@ -1951,3 +1951,22 @@ blockquote {
     border-color: #ff004d;
     color: #ff004d;
 }
+
+.total-brand {
+    display: flex;
+    flex-wrap: wrap; /* This allows the logos to wrap into multiple lines */
+    justify-content: space-around; /* Spreads the logos evenly across the row */
+}
+
+.single-brand {
+    flex: 1 1 20%; /* Allows each logo to take up approximately 20% of the row width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; /* Adds some space between the rows */
+}
+
+.single-brand img {
+    max-width: 100px; /* Limit the width of each logo */
+    height: auto; /* Ensure the aspect ratio is maintained */
+}
