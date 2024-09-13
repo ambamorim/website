@@ -1954,19 +1954,23 @@ blockquote {
 
 .total-brand {
     display: flex;
-    flex-wrap: wrap; /* This allows the logos to wrap into multiple lines */
-    justify-content: space-around; /* Spreads the logos evenly across the row */
+    justify-content: space-around;
+    margin-bottom: 10px; /* Add spacing between rows */
+}
+
+.second-row {
+    margin-top: 10px; /* Add spacing between first and second row */
 }
 
 .single-brand {
-    flex: 1 1 20%; /* Allows each logo to take up approximately 20% of the row width */
+    flex: 1 1 18%; /* Ensures 5 logos fit per row (adjust percentage as needed) */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0; /* Adds some space between the rows */
+    margin: 10px 0;
 }
 
 .single-brand img {
-    max-width: 100px; /* Limit the width of each logo */
-    height: auto; /* Ensure the aspect ratio is maintained */
+    max-width: 100px;
+    height: auto;
 }

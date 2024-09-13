@@ -8,6 +8,28 @@ Developed by: bootexperts.com
 NOTE: This is Style customizer stylesheet of template.
 
 */
+.total-brand {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; /* Add spacing between rows */
+}
+
+.second-row {
+    margin-top: 10px; /* Add spacing between first and second row */
+}
+
+.single-brand {
+    flex: 1 1 18%; /* Ensures 5 logos fit per row (adjust percentage as needed) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.single-brand img {
+    max-width: 100px;
+    height: auto;
+}
 
 
 div.style-customizer {
