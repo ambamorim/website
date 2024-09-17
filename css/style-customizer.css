@@ -8,6 +8,21 @@ Developed by: bootexperts.com
 NOTE: This is Style customizer stylesheet of template.
 
 */
+.btn-def {
+    background-color: #ff5733; /* Stronger, vibrant color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn-def:hover {
+    background-color: #c13e1f; /* Darker color on hover */
+}
+
 .brand-area {
     background: none; /* Remove any background image or color */
 }
