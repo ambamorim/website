@@ -1953,29 +1953,20 @@ blockquote {
 }
 
 .brand-area {
-    padding: 40px 0;
-    background-color: white; /* Ensure the background is white */
+    background: none; /* Remove any background image or color */
 }
 
-.total-brand {
-    display: flex;
-    justify-content: center; /* Center the logos */
-    flex-wrap: wrap; /* Allow wrapping in case of overflow */
-    margin-bottom: 20px; /* Add space between rows */
+.container, .total-brand {
+    background: none; /* Remove background from container or any parent elements */
 }
+
+
 
 .second-row {
     margin-top: 20px; /* Space between first and second row */
 }
 
-.single-brand {
-    flex: 0 1 15%; /* Adjust width for logos (15% to fit nicely in a row) */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px; /* Add a little horizontal margin */
-    padding: 10px;
-}
+
 
 .single-brand img {
     max-width: 100px; /* Control logo size */
@@ -1986,3 +1977,23 @@ blockquote {
     max-width: 100%; /* Ensure container uses full width */
 }
 
+.brand-logo {
+    max-width: 150px; /* Adjust the size as needed */
+    max-height: 100px;
+    margin: 10px; /* Add some space around each logo */
+}
+
+.total-brand {
+    display: flex;
+    justify-content: center; /* Center logos horizontally */
+    align-items: center; /* Center logos vertically if needed */
+    flex-wrap: wrap;
+}
+
+.single-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 20%; /* Adjusts the logos to take equal space */
+    text-align: center; /* Make sure logos are centered inside their div */
+}
