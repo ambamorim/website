@@ -2459,3 +2459,7 @@ ul.anamiguel li.title {
 ul.anamiguel li.title ul li {
     margin-left: 20px;
 }
+
+p, li, div, span {
+    font-style: normal;
+}
