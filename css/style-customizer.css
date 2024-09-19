@@ -22,7 +22,7 @@ NOTE: This is Style customizer stylesheet of template.
 .btn-def:hover {
     background-color: #b30000; /* Darker red on hover */
 }
-
+normal
 .brand-area {
     background: none; /* Remove any background image or color */
 }
